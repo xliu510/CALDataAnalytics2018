@@ -222,7 +222,7 @@ WHERE country = 'Canada';
 ##### 7d. Sales have been lagging among young families, and you wish to target all family movies for a promotion. Identify all movies categorized as family films.
 
 ```
-SELECT title AS `Family Friendly Title` FROM film
+SELECT title AS `Family Friendly Films` FROM film
 WHERE film_id IN
 	(
 		SELECT film_id FROM film_category
