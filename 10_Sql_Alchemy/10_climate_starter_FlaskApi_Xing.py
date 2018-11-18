@@ -107,6 +107,7 @@ def tobs():
     one_year_from_last_results = session.query(Measurement.date, Measurement.tobs)\
                         .filter(Measurement.date >= '2016-08-23').all()
 
+    # Create a all_last_year_tobs dictionary and adding a list of date and tob values
     all_last_year_tobs = []
     for result in one_year_from_last_results:
         tobs_result_dict = {}
