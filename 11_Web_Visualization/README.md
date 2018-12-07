@@ -1,4 +1,4 @@
-# Welcome to my Web Visualization Dashboard
+# Welcome to My Web Visualization Dashboard Project
 
 This project gave me the opportunity to share data via the internet.
 Using what I have learned with HTML, CSS and Bootstrap. I have created a responsive website to showcase the Python-API project I worked on earlier.
