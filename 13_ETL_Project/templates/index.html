@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<head>
+	<title>ETL-Trafficking-UK</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/waypoints.css') }}"/>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/waypoints.js') }}"></script>
+</head>
+<body>
+
+	<section class="intro">
+		<div class="inner">
+			<div class="content">
+				<section class="os-animation" data-os-animation="fadeInDown" data-os-animation-delay="0s">
+					<h1>DISCOVER</h1>
+				</section>
+				<section class="os-animation" data-os-animation="fadeInDown" data-os-animation-delay="1s">
+					<a class="btn" href="http://localhost:5000/data2014">UK 2014</a>
+					<a class="btn" href="http://localhost:5000/data2015">UK 2015</a>
+					<a class="btn" href="http://localhost:5000/data2016">UK 2016</a>
+				</section>
+			</div>
+		</div>
+	</section>
+
+	<h3>Welcome to our ETL Project Webpage!</h3>
+	
+	<p>Our topic is about Human Trafficking in the United Kingdom between years 2014 to 2016.</p>
+	
+	<p>This project provides us the platform to demonastrate our ability to Extract, Transform and Load data from various
+	resources and put them into a database.</p>
+
+	<p>The UK Trafficking link above will take you to our Flask page that provides a statistical breaks down of the different type of exploitation grouped by Year and Nationality.</p>
+
+</body>
+</html>
