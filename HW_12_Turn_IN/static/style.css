@@ -1,0 +1,48 @@
+@import url('https//fonts.googleapis.com/css?family=Oswald');
+
+html *
+{
+    font-family: 'Oswald';
+}
+
+header {
+    padding: 50px;
+    margin-bottom: 20px;
+    color: black;
+    background: lightgray;
+    width: 100%;
+}
+
+.mission {
+    color: black;
+    font-weight: 800;
+}
+
+h1 {
+    padding: 15px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.featured {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.border {
+    border-width: 3px;
+    border-color: lightgray;
+}
+
+.hemispheres {
+    text-align: center;
+}
+
+.caption {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
