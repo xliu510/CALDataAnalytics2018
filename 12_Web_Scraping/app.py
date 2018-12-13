@@ -15,13 +15,13 @@ def index():
     mars_data = mongo.db.mars.find_one()
     return render_template("index.html", mars_info=mars_data)
 
-
+# Route to scrape needed info to generate index.html page
 @app.route("/scrape")
 def scrape():
-    mars_data = scrape_mars.Scrape()
-    mars_info.update({}, mars_data, upsert=True)
-
-    return redirect("/")
+    mars_data = mongo.db.mars
+    new_data = scrape_mars.Scrape()
+    mars_data.update({}, new_data, upsert=True)
+    return redirect("/", code="302")
 
 
 if __name__ == "__main__":
