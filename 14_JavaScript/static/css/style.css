@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body {
+    background-color: #2B3E50;
+    color: white;
+}
+
+.navbar {
+  padding: 5px;
+  margin: 0;
+  background-color: #4E5D6C;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.nav-ufo {
+  position: absolute;
+  bottom: 12px;
+  left: 25px;
+  width: 35px;
+  color: white;
+}
+
+.nav-github {
+  position: absolute;
+  bottom: 12px;
+  right: 25px;
+  width: 35px;
+  color: white;
+}
+
+.nav-ufo:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.nav-github:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+.jumbotron {
+    margin: 20px;
+    background-image: url("../images/nasa.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 600%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-control {
+    display: inline-block;
+    width: 145px;
+}
+
+table {
+    table-layout: fixed;
+    background-color: #2B3E50;
+    color: white;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 30px;
+  min-height: 100px;
+  background: #4E5D6C;
+}
