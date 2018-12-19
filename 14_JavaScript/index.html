@@ -6,40 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UFO Sightings</title>
+
+    <!-- CSS stylesheet reference -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-    <div class="navbar-header">
-        <a class="navbar-brand"></a>
-        <a href="index.html"><img class="nav-ufo" src="static/images/ufo.svg"></a>
-        <a href="https://github.com/xliu510/CALDataAnalytics2018/tree/master/14_JavaScript"><img class="nav-github" src="static/images/github-logo-face.png"></a>
-    </div>
-    </div>
-</nav>
-<div class="jumbotron">
-    <h1>UFO Sightings</h1>
-    <br>
-    <br>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="form-group">
-                <input type="text" class="form-control" id="date" placeholder="Date">
-                <input type="text" class="form-control" id="city" placeholder="City">
-                <input type="text" class="form-control" id="state" placeholder="State">
-                <input type="text" class="form-control" id="country" placeholder="Country">
-                <input type="text" class="form-control" id="shape" placeholder="Shape">
-                <span class="form-group-btn">
-                    <button class="btn btn-default" id="search" type="button">Search</button>
-                </span>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand"></a>
+            <a href="index.html"><img class="nav-ufo" src="static/images/ufo.svg"></a>
+            <a href="https://github.com/xliu510/CALDataAnalytics2018/tree/master/14_JavaScript"><img class="nav-github" src="static/images/github-logo-face.png"></a>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron with search fields-->
+    <div class="jumbotron">
+        <h1>UFO Sightings</h1><br><br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="date" placeholder="Date">
+                    <input type="text" class="form-control" id="city" placeholder="City">
+                    <input type="text" class="form-control" id="state" placeholder="State">
+                    <input type="text" class="form-control" id="country" placeholder="Country">
+                    <input type="text" class="form-control" id="shape" placeholder="Shape">
+                    <span class="form-group-btn">
+                        <button class="btn btn-default" id="search" type="button">Search</button>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
-</div>
     
+    <!-- Data Table -->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -62,11 +67,14 @@
         </div>
     </div>
 
+    <!-- Footer -->
     <footer class="footer">
         <span class="bottom">The Truth is Out There!</span>
     </footer>
 
+    <!-- Javascript reference -->
     <script src="static/js/data.js" type="text/javascript"></script>
     <script src="static/js/index.js" type="text/javascript"></script>
+
 </body>
 </html>
