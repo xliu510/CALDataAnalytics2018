@@ -1,11 +1,8 @@
 
+/* import text from google font */
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-body {
-    background-color: #2B3E50;
-    color: white;
-}
-
+/* formatting classes */
 .navbar {
   padding: 5px;
   margin: 0;
@@ -65,12 +62,6 @@ body {
     width: 145px;
 }
 
-table {
-    table-layout: fixed;
-    background-color: #2B3E50;
-    color: white;
-}
-
 .footer {
   position: relative;
   text-align: center;
@@ -81,3 +72,14 @@ table {
   background: #4E5D6C;
 }
 
+/* formatting body and table */
+body {
+    background-color: #2B3E50;
+    color: white;
+}
+
+table {
+    table-layout: fixed;
+    background-color: #2B3E50;
+    color: white;
+}
