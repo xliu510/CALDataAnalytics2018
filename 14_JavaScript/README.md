@@ -7,5 +7,5 @@ The premise of this project was to create HTML webpage that contains a table dyn
 2) Open index.html file.
 
 
-
+ 
 ![my picture](pictures/UFO_Sightings.png)
