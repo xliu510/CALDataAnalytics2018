@@ -6,6 +6,4 @@ The premise of this project was to create HTML webpage that contains a table dyn
 1) Download the index.html file and the static folder.
 2) Open index.html file.
 
-
- 
 ![my picture](pictures/UFO_Sightings.png)
