@@ -2,6 +2,8 @@
 
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom_half.jpg)
 
+In this assignment, I built an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
+
 ## Heroku App
 https://belly-button-biodiversity-xl.herokuapp.com/
 
