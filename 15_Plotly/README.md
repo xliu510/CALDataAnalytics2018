@@ -1,6 +1,6 @@
 # Belly Button Biodiversity
 
-![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcomd.jpg)
+![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
 
 ## Heroku App
 https://belly-button-biodiversity-xl.herokuapp.com/
