@@ -2,7 +2,10 @@
 
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
 
-## Steps required to use the App
+## Heroku App
+https://belly-button-biodiversity-xl.herokuapp.com/
+
+## Steps required to use the App Locally
 1) Clone Repository.
 1) Go into StarterCode folder.
 1) Go into Belly_Button_Biodiversity folder.
