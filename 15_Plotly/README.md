@@ -8,5 +8,5 @@
 1) Run app.py file using a Python/Flask compiler.
 1) Type in the URL populated by the compiler into a browser.
 
-![Example](Images/bacteria_by_filterforgedotcom.jpg)
+![Sample App Screenshot](Images/dashboard.jpg)
 
