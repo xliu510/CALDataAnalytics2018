@@ -4,6 +4,8 @@
 
 In this assignment, I built an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
+HTML, JavaScript, Plotly, Python and Flask were used to create this dashboard.
+
 ## Heroku App
 https://belly-button-biodiversity-xl.herokuapp.com/
 
