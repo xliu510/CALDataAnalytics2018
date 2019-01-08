@@ -4,7 +4,7 @@
 
 ## Steps required to use the App
 1) Clone Repository.
-1) Go into StarterCode Folder.
+1) Go into StarterCode folder.
 1) Go into Belly_Button_Biodiversity folder.
 1) Run app.py file using a Python/Flask compiler.
 1) Type in the URL populated by the compiler into a browser.
