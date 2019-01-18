@@ -1,4 +1,6 @@
-### To view, simply git clone and open html file
+### To view, simply git clone and open index.html file
+
+---
 
 # Unit 16 | Assignment - Data Journalism and D3
 
