@@ -64,3 +64,8 @@
   fill: #e75480;
   cursor: pointer;
 }
+
+tspan{
+  fill: whitesmoke;
+  font-weight: bold;
+}

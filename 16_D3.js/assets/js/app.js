@@ -118,13 +118,13 @@ d3.csv("assets/data/data.csv", function(err, healthData) {
     .attr("cx", d => xLinearScale(d[chosenXAxis]))
     .attr("cy", d => yLinearScale(d.healthcare))
     .attr("r", 15)
-    .attr("fill", "#83c9ea")
-    .attr("opacity", ".5");
+    .attr("fill", "#328eba")
+    .attr("opacity", ".8");
 
   // Appending a label to each data point
   chartGroup.append("text")
     .style("text-anchor", "middle")
-    .style("font-size", "12px")
+    .style("font-size", "9px")
     .selectAll("tspan")
     .data(healthData)
     .enter()
