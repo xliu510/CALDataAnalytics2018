@@ -14,7 +14,7 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates:
 
 ### To view the file
 
-#### Using Firefox
+#### Using Firefox or Edge
 1) Git clone
 1) Open index.html file
 
