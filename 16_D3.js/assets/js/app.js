@@ -311,7 +311,7 @@ d3.csv("assets/data/data.csv", function(err, healthData) {
             xIncomeLabel
               .classed("active", true)
               .classed("inactive", false);
-          } else if (chosenXAxis === "age") {
+          } else {
             xPovertyLabel
               .classed("active", false)
               .classed("inactive", true);
@@ -373,7 +373,7 @@ d3.csv("assets/data/data.csv", function(err, healthData) {
             yObesityLabel
               .classed("active", false)
               .classed("inactive", true);
-          } else if (chosenYAxis === "obesity") {
+          } else {
             yHealthcareLabel
               .classed("active", false)
               .classed("inactive", true);
