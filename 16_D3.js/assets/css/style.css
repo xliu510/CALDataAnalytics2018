@@ -1,71 +1,51 @@
-.header {
-  font-family: sans-serif;
-  font-weight: normal;
-  font-size: 20px;
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
 }
 
-.chart::before {
-  position: absolute;
-  top: 50px;
-  left: 300px;
-  z-index: -1;
-  display: block;
-  width: 400px;
-  height: 300px;
-  content: " ";
-  /* background-image: url("maxresdefault.jpg"); */
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-  opacity: 0.3;
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.tooltip {
-  position: absolute;
-  width: 135px;
-  height: 60px;
-  padding: 2px;
-  padding-top: 8px;
-  font: 12px sans-serif;
-  font-weight: bold;
-  color: white;
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+.row {
+  text-align: left;
+}
+
+.row h1 {
+  text-align: left;
+}
+
+.row .article h2 {
+  font-size: 26px;
   text-align: center;
-  background: rgba(54, 52, 52, 0.575);
-  border: 0;
-  border-radius: 10px;
 }
 
-.axis-text {
-  font: 18px sans-serif;
-  font-weight: bold;
-  fill: #000;
-  fill: rgb(37, 35, 35);
-  text-anchor: middle;
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
 }
 
-.active {
-  font: 18px sans-serif;
-  font-weight: bold;
-  fill: #000;
-  fill: rgb(37, 35, 35);
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.inactive {
-  font: 18px sans-serif;
-  font-weight: lighter;
-  fill: gray;
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.inactive:hover {
-  fill: #e75480;
-  cursor: pointer;
-}
-
-tspan{
-  fill: whitesmoke;
-  font-weight: bold;
+p.footer {
+  position: absolute;
+  right:0;
+  bottom:0;
+  left:0;
+  padding: 0.8em;
+  margin: 0;
+  text-align: center;
+  background-color: #696969;
+  color: white;
 }
