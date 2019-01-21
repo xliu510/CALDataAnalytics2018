@@ -15,10 +15,12 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates:
 ### To view the file
 
 #### Using Firefox
-1) simply git clone and open index.html file
+1) Git clone
+1) Open index.html file
 
 #### Using Chrome
-1) open VSCode, open terminal and type python -m http.server
+1) Git clone
+1) Open VSCode, select folder, open terminal, type python -m http.server
 1) http://localhost:8000/
   
   ![D3Times-Preview](Images/D3Times.PNG)
