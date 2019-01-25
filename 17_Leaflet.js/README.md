@@ -29,8 +29,6 @@ In this step we are going to..
 
 * Add layer controls to our map.
 
----
-
 ## To view
 ---
 1) GitClone
