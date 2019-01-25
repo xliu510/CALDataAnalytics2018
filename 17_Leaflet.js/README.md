@@ -1,7 +1,3 @@
-## To view
-1) GitClone
-1) Open index.html file
-
 # Unit 17 | Assignment - Visualizing Data with Leaflet
 
 ## Background
@@ -32,3 +28,6 @@ In this step we are going to..
 
 * Add layer controls to our map.
 
+## To view
+1) GitClone
+1) Open index.html file
