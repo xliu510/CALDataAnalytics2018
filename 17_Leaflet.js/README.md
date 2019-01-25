@@ -3,7 +3,6 @@
 1) GitClone
 1) Open index.html file
 
----
 # Unit 17 | Assignment - Visualizing Data with Leaflet
 
 ## Background
