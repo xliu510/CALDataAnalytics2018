@@ -1,3 +1,9 @@
+### To view
+---
+1) GitClone
+1) Open index.html file
+
+---
 # Unit 17 | Assignment - Visualizing Data with Leaflet
 
 ## Background
@@ -12,9 +18,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ### Visualization
 
-![2-BasicMap](Images/2-BasicMap.png)
-
-Your first task is to visualize an earthquake data set.
+Your task is to visualize an earthquake data set.
 
 1. **Get your data set**
 
